@@ -11,6 +11,17 @@ body {
     height: 300px;
 }
 
+#myButton {
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    height: 50px;
+    background-color: aquamarine;
+    font-weight: bold;
+
+}
 
 .nav_logo {
     background: url(../image/2.jpg) no-repeat center center;
