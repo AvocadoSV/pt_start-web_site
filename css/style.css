@@ -13,15 +13,13 @@ body {
 
 .form-container {
     display: flex;
-    /* Используем flexbox для расположения элементов */
     flex-direction: column;
-    /* Располагаем элементы в колонку */
+
 }
 
 .form-container .form,
 .form-container textarea {
     margin-bottom: 10px;
-    /* Добавляем отступ снизу к полям */
 }
 
 

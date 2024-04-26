@@ -37,7 +37,7 @@
 <?php
 require_once('db.php');
 
-$link = mysqli_connect('127.0.0.1','root','kali','first');
+$link = mysqli_connect('db','root','kali','first');
 
 if(isset($_COOKIE['User'])){
     header("Location: login.php");
