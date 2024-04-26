@@ -11,6 +11,20 @@ body {
     height: 300px;
 }
 
+.form-container {
+    display: flex;
+    /* Используем flexbox для расположения элементов */
+    flex-direction: column;
+    /* Располагаем элементы в колонку */
+}
+
+.form-container .form,
+.form-container textarea {
+    margin-bottom: 10px;
+    /* Добавляем отступ снизу к полям */
+}
+
+
 #myButton {
     width: 100px;
     border: none;
